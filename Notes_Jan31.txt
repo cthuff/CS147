@@ -78,11 +78,16 @@ Ex srl
 JumpAddress = {6’b0, address} //zero extended for 6-bit
 
 
+Arithmetic and Logic Unit (ALU)
+   ~Provides fundamental functionality of a computer 
+   ~Everything that happens on a computer uses this 
+   ~Very Important to practice drawing the ALU as it is not commonly coded
+   ~Represented in a very special way Interface Diagram: ( > )
+
+•Drawing the ALU
+   *Being a computer architectural object, it is necessary to include operation width. In our case it is 32 bit.
+   *Multiple bits are represented with single strike line indicating that the operations involves multiple bits. Plain line connection denotes single bit operation.
+   *The arrow indicates the direction of data flow – input, output or both ways. 
 
 
-
-
-
-
-	   
 

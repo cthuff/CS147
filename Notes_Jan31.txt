@@ -1,0 +1,88 @@
+Introduction to the Computer, Instruction set, and ALU
+
+Simple View
+   ~Input Device
+   ~Central Processing Unit (CPU) + Memory Devices
+   ~Output Devices
+
+CPU
+   ~Full of many different parts such as IO Cards, GPU, Memory (not a lot), USB Ports, etc
+  
+Basic of Instruction Set
+   ~This is the treaty between hardware and software (for this class)
+   ~I-type, J-type, etc.
+   ~Memory management / stack
+   ~In CS47 we used the instruction set to solve a problem
+   ~We want to be able to design a processor that is designed for the instruction set
+
+Instruction Set Contains…
+   ~General outline of data storage.
+   ~List of instructions and operations.
+   ~Details of the operation encoding in binary.
+   ~Example: ARMv8 instruction set
+	http://www.element14.com/community/servlet/JiveServlet/previewBody/41836-102-1-229511/ARM.Reference_Manual.pdf
+
+‘CS147DV’ Instruction Set (page 10-14 in notes)
+● 3 types of instructions.
+   – Register or R type 
+   – Immediate or I type 
+   – Jump or J type
+(Look at PDF notes for the byte maps)
+
+•There are 32 internal storage / Each of these registers are 32-bit.
+   –28 of them are user accessible (0-27).
+   –r[28] is Global pointer or $gp.
+   –r[29] is Stack pointer or $sp
+   –r[30] is Frame pointer or $fp
+   –r[31] is Return address pointer of $ra 
+
+•Coding Format
+			[Bit amount]
+              [6]    [5]  [5]  [5]   [5]     [6]
+   R-Type -> opcode | rs | rt | rd | shamt | funct
+   -<mnemonic> <rd>, <rs>, <rt|shamt>
+   -Use log(2) # to get the amount of bits from the # of registers log(2) 32 = 5
+
+Ex of add
+*add r10, r5, r8 -> r10 = r5 + r8
+*r10 = xx; r5 = 10; r8 = 25
+*Solution: r10 = 10 + 25
+	   r10 = 35
+000000 00101 01000 01010 00000 100000
+
+Ex srl
+*srl r10, r6, 2 -> That r6, shift right two positions and set that to be register r10
+*r10 = xx; r6 = 0000…1000
+*Solution: r10 = 0000…0010 (after being shifted two positions)
+*add the shift operation to the shamt
+
+
+•I-Type (Most Significant Byte/Bit | Least Significant Byte/Bit)
+			[Bit amount]
+              [6]    [5]  [5]    [16]
+            opcode | rs | rt | immediate
+   ~The immediate will either have a zero or sign extension 
+   ~Sign Extension -> 1011 ––– 11111011
+   ~Zero Extension -> 1011 ——– 00001011
+
+   ~LW / SW store and load whatever is at the memory location of the immediate value at the register specified
+   ~Branch Address = {16{Imm[15]}, immediate}  
+
+**(Program Counter) PC topic in the notes will be talked about later**
+
+•J-Type (Jump / Push & Pop)
+               [Bit amount]
+              [6]       [26]
+            opcode |   address
+
+JumpAddress = {6’b0, address} //zero extended for 6-bit
+
+
+
+
+
+
+
+
+	   
+

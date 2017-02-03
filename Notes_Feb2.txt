@@ -47,9 +47,21 @@ CONTROL SYSTEM MODEL
    ~This cycle will continue until the computer is power off. ****LEARN****
 
 VON NEUMANN ARCHITECTURE
+   
+   ~In 1945, mathematician and physicist John Von Neumann proposed a stored program model which is followed even now a days
+   ~In this architecture instruction and data for operation must be fetched in different cycle since they both uses same memory. Read and write cannot be done simultaneously. 
 
+HARVARD ARCHITECHTURE
  
+   ~In contrast to Von Neumann architecture, Harvard architecture provides physically separate memory for instruction and data.
+   ~ Harvard architecture provides distinct address space for memory and data. Modified Harvard architecture allows to have single physical memory but the instruction and data access is still in parallel to each other if needed.
+   ~ Modern computing follows Harvard and Von Neumann Architecture. 
+
+***Learn how to draw the drawings***
 
 SOFTWARE SYSTEM
+
+   ~The compiler processes a program in a high level language and generates the assembly code.  The loader does mapping the memory so the program can have addresses. The assembler translate the assembly program into machine codes with relative address.
+
 
 

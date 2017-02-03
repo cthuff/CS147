@@ -1,3 +1,5 @@
+Notes 1/31/17
+
 Introduction to the Computer, Instruction set, and ALU
 
 Simple View

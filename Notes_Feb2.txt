@@ -1,0 +1,55 @@
+Notes 2/2/17
+
+CLOCK SYSTEM MODEL
+
+   ~ALU has a bit of delay from when the input parameters are set. The delays can be represented in a timing diagram 
+   ~Timing diagrams start on the left with time = 0. All single bit signals are represented with a line and can have a value of 0 or 1.
+   ~32 bit data (31:0) are represented as a polygon, where changes in data are a crossing of the polygon.
+   ~Vertical lines represent parts in time; t0, t1, t2,. . . ,tn. 
+   ~The ALU delay is t1 + da, where da is the delay from when the parameters are given. 
+   ~Improvements in the ALU can increase speeds out outputs. (hardware can also change the timing outcome; temperature, electoral noise)
+   ~Since the entire computer is using an ALU, the rest of the computer needs to know when the operation is done in one subsystem. The clock gives a upper bound of the process, which says the ALU has to give an answer before that time.
+   ~Distance between the clock ticks (or time period) of clock is defined as reciprocal of clock frequency (T = 1/f). 
+   ~Clock diagrams are drawn as trapezoids.
+   ~Time period of a clock (T) is measured as time difference between two successive rising edge at their mid point (50% point)
+   ~Time period T is sum of clock high time and low time (T = th + tl).
+   ~Duty cycle (D) of a clock is defined as the percentage of time that a clock signal stays high within a single clock period.Usually duty cycle is 50% (i.e. equal span of 0 and 1 state within one clock period).
+	D = (th/T) ÷ 100
+
+MEMORY SYSTEM MODEL
+
+   ~Provides storage capability for information - program (instruction) and variables (data).
+   ~This is drawn as a block with one bit read and write. Data can be input and output from the memory_1k diagram
+   ~ There is usually additional 'reset' pin to clear memory content and set all index position to 0.
+   ~The smaller to clock cycle the faster the operations are. However, it’s very hard to make clock cycles smaller and still allowing time to complete processes
+   ~A bi-directional data is designed to minimize the amount of memory onboard the motherboard
+   ~Register files (32 spaces = 5-bit) can be modeled as memory. Separate buses for data_in and data_out. (since this is going straight to the processor) 
+   ~CS 147 register memory system model~
+   ~We add two read addresses (R1, R2) and one write address (R1). The data_in is still 32 bit.
+   ~This type of model is designed for R-Type processes since there are two registers read. 
+   ~Reading both registers at the same time can reduce the clock cycle.  
+
+CONTROL SYSTEM MODEL
+
+   ~CS 47 diagram that makes use of Control Unit, ALU, Memory System Model, and Register Files.
+   ~Data flow occurs between
+	● Register file to ALU as op1 and op2 
+	● ALU to register file as result. 
+	● Register file to memory to store result. 
+	● Memory to register file to load value from memory.
+   ~Standard Steps;
+	*Reset System (RST)
+	*Instruction Fetch (IF)
+	*Instruction Decode (ID)
+	*Execution (EX)
+	*Memory Access (MEM)
+	*Write Back (WB)
+   ~This cycle will continue until the computer is power off. ****LEARN****
+
+VON NEUMANN ARCHITECTURE
+
+ 
+
+SOFTWARE SYSTEM
+
+

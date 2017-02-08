@@ -1,0 +1,38 @@
+Notes 2/2/17
+
+DIGITAL SYNTHESIS
+
+   ~How to bring conceptual processor and memory system into reality?
+   ~All components of a processor can be described at a high level using hardware description language (HDL) i.e. verilog / VHDL
+   ~HDL provides language constructs similar to any other high level programing language like C or JAVA. Instead of describing algorithms in software context, HDL describes algorithm in hardware context.
+   ~A synthesis tool is the equivalent of a complier in HDL. The Synthesis tool translates the program into a logic gate circuit. 
+   
+   ~1854: Boolean Algebra by George Boole was written (See lect_03 pg 6)
+   ~1947: First transistors were created John Bardeen, Walter Brattain, and William Shockley
+   ~1968: Integrated Circuit (IC) created by Robert Noyce and Gordon Moore. (Without this invention, this class would be irrelevant)
+
+NUMBER REPRESENTATION 
+
+   ~There are multiple number systems and its applications.
+	– Decimal number system using 0 ... 9 digit [base 10]	– Binary number system using 0 and 1 [base 2]	– Octal number system using 0 ... 7 digit [base 8]	– Hexadecimal number system 0 ... 9, a ... f [base 16]
+   ~The scripting is showing you what value is being represented  
+   ~The formula to translate a n-digit number in base K into corresponding decimal value is as following where d i is the ith digit in the original number, assuming 0 is the right most digit 
+  	      n−1	V10 =  ∑  di∗Ki              i=0
+
+~Ex (Hex to Decimal) A1C base 16
+     16^2 * A + 16^1 * 1 + 16^0 * C
+     256 * 12 + 16 * 1 + 1 * 12
+   = 2588 base 10
+
+~Ex (Decimal to Binary) 51 base 10
+     58 / 2 = 29 R 0
+     29 / 2 = 14 R 1
+     14 / 2 = 7  R 0
+     7  / 2 = 3  R 1
+     3  / 2 = 1  R 1
+     1  / 2 = 0  R 1
+   = 111010 base 2
+
+
+   ~To represent a negative number in binary we use the 2’s compliment method. 2's complement form represent any positive binary number with leading 0 and any negative binary number with leading 1.
+   ~Implementing 2's complement form is easier for hardware engineers, but may pose some challenge with software side due to the lowest number represented with the system.

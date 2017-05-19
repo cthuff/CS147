@@ -1,0 +1,327 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Greg/Desktop/prj_01_src
+vALU
+!i10b 1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!s100 Ti_I2MY1Qn8jmS4kmHU^Z3
+IITC_6jJa6;agH`lL;<Z1N2
+Z1 dC:/Users/Greg/Desktop/prj_02_source
+w1445637081
+8C:/Users/Greg/Desktop/prj_02_source/alu.v
+FC:/Users/Greg/Desktop/prj_02_source/alu.v
+L0 25
+Z2 OP;L;10.4a;61
+!s108 1445637085.000000
+!s107 prj_definition.v|C:/Users/Greg/Desktop/prj_02_source/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Greg/Desktop/prj_02_source/alu.v|
+!s101 -O0
+!i113 1
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@a@l@u
+valu
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 LN<a?3zo4LIfi2f3;_g[L0
+IIo0Xm^T0joWeCY;Eg`cN=0
+R1
+w1444339587
+8C:\Users\Greg\Desktop\prj_02_source\alu.v
+FC:\Users\Greg\Desktop\prj_02_source\alu.v
+Z4 L0 26
+R2
+!s108 1444339590.000000
+!s107 prj_definition.v|C:\Users\Greg\Desktop\prj_02_source\alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Greg\Desktop\prj_02_source\alu.v|
+!s101 -O0
+!i113 1
+R3
+valu_tb
+!s110 1445725182
+!i10b 1
+!s100 __J6?4;:;BmmmY=H<M;2P0
+IQahHloG8_aNg=:Nmk@IgR0
+R0
+R1
+w1445725174
+Z5 8C:/Users/Greg/Desktop/prj_02_source/alu_tb.v
+Z6 FC:/Users/Greg/Desktop/prj_02_source/alu_tb.v
+R4
+R2
+r1
+!s85 0
+31
+!s108 1445725182.000000
+Z7 !s107 prj_definition.v|C:/Users/Greg/Desktop/prj_02_source/alu_tb.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Greg/Desktop/prj_02_source/alu_tb.v|
+!s101 -O0
+!i113 1
+R3
+vCLK_GENERATOR
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 I`I=T4aaeE09lSRDFRN971
+I6ak3;:TCQYLFV3LA6nCU>0
+R1
+Z9 w1443480086
+8C:/Users/Greg/Desktop/prj_02_source/clk_gen.v
+FC:/Users/Greg/Desktop/prj_02_source/clk_gen.v
+L0 16
+R2
+!s108 1445029537.000000
+!s107 prj_definition.v|C:/Users/Greg/Desktop/prj_02_source/clk_gen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Greg/Desktop/prj_02_source/clk_gen.v|
+!s101 -O0
+!i113 1
+R3
+n@c@l@k_@g@e@n@e@r@a@t@o@r
+vCONTROL_UNIT
+Z10 !s110 1445913420
+!i10b 1
+!s100 2i:cS9[^^`gT1m53JKOmG3
+I`YDhoVKE?b;>?PLATzXJ02
+R0
+R1
+Z11 w1445913353
+Z12 8C:/Users/Greg/Desktop/prj_02_source/control_unit.v
+Z13 FC:/Users/Greg/Desktop/prj_02_source/control_unit.v
+L0 34
+R2
+r1
+!s85 0
+31
+Z14 !s108 1445913420.000000
+Z15 !s107 prj_definition.v|C:/Users/Greg/Desktop/prj_02_source/control_unit.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Greg/Desktop/prj_02_source/control_unit.v|
+!s101 -O0
+!i113 1
+R3
+n@c@o@n@t@r@o@l_@u@n@i@t
+vCONTROL_UNIT_TB
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 PWfQLO2l6^K?1h5U[hCen1
+IJ_PcjLVHD@2=<Yl`XEba`2
+R1
+w1445641339
+8C:/Users/Greg/Desktop/prj_02_source/control_unit_tb.v
+FC:/Users/Greg/Desktop/prj_02_source/control_unit_tb.v
+L0 2
+R2
+!s108 1445641341.000000
+!s107 prj_definition.v|C:/Users/Greg/Desktop/prj_02_source/control_unit_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Greg/Desktop/prj_02_source/control_unit_tb.v|
+!s101 -O0
+!i113 1
+R3
+n@c@o@n@t@r@o@l_@u@n@i@t_@t@b
+vDA_VINCI
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 @Cfmb0Z_T`MjRPoLI@k6C0
+IbOSUUZX2i:ChAiOI0WZ8c0
+R1
+R9
+8C:/Users/Greg/Desktop/prj_02_source/da_vinci.v
+FC:/Users/Greg/Desktop/prj_02_source/da_vinci.v
+Z17 L0 24
+R2
+Z18 !s108 1445029538.000000
+!s107 prj_definition.v|C:/Users/Greg/Desktop/prj_02_source/da_vinci.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Greg/Desktop/prj_02_source/da_vinci.v|
+!s101 -O0
+!i113 1
+R3
+n@d@a_@v@i@n@c@i
+vDA_VINCI_TB
+!s110 1445927367
+!i10b 1
+!s100 8Anbck^778ROd2;6P8^3`2
+IV82]W<31Aagh2W7_lKfTh3
+R0
+R1
+w1445927361
+8C:/Users/Greg/Desktop/prj_02_source/da_vinci_tb.v
+FC:/Users/Greg/Desktop/prj_02_source/da_vinci_tb.v
+R17
+R2
+r1
+!s85 0
+31
+!s108 1445927367.000000
+!s107 prj_definition.v|C:/Users/Greg/Desktop/prj_02_source/da_vinci_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Greg/Desktop/prj_02_source/da_vinci_tb.v|
+!s101 -O0
+!i113 1
+R3
+n@d@a_@v@i@n@c@i_@t@b
+vMEM_64MB_TB
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 Q0bd^kgMCaH`JYm[fkQkH3
+IkSV=SfdRTOL^HCbmc`Y3T3
+R1
+R9
+8C:/Users/Greg/Desktop/prj_02_source/mem_64MB_tb.v
+FC:/Users/Greg/Desktop/prj_02_source/mem_64MB_tb.v
+Z19 L0 23
+R2
+R18
+!s107 prj_definition.v|C:/Users/Greg/Desktop/prj_02_source/mem_64MB_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Greg/Desktop/prj_02_source/mem_64MB_tb.v|
+!s101 -O0
+!i113 1
+R3
+n@m@e@m_64@m@b_@t@b
+vMEMORY_64MB
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 :1AFzeFFc3mJn0MoaYcm`3
+IZ10Q];46=7DAlG=LOjMMm1
+R1
+w1444617811
+8C:/Users/Greg/Desktop/prj_02_source/memory.v
+FC:/Users/Greg/Desktop/prj_02_source/memory.v
+R4
+R2
+R18
+!s107 prj_definition.v|C:/Users/Greg/Desktop/prj_02_source/memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Greg/Desktop/prj_02_source/memory.v|
+!s101 -O0
+!i113 1
+R3
+n@m@e@m@o@r@y_64@m@b
+vprj_01_tb
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 X9KTYWYT`Qn:=HKOlRjA_2
+I_kMHf6@J?R;6Cc@LQVi;N3
+R1
+w1445724693
+R5
+R6
+R4
+R2
+!s108 1445724695.000000
+R7
+R8
+!s101 -O0
+!i113 1
+R3
+vPROC_CS147_SEC05
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 hoddXg151;J@]_cW[Il_Y0
+I]LOcDXmQWT]X]=HdgL2SN2
+R1
+R9
+8C:/Users/Greg/Desktop/prj_02_source/processor.v
+FC:/Users/Greg/Desktop/prj_02_source/processor.v
+R19
+R2
+!s108 1445029539.000000
+!s107 prj_definition.v|C:/Users/Greg/Desktop/prj_02_source/processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Greg/Desktop/prj_02_source/processor.v|
+!s101 -O0
+!i113 1
+R3
+n@p@r@o@c_@c@s147_@s@e@c05
+vPROC_SM
+R10
+!i10b 1
+!s100 =nNdik[L_88MmROdh3DJM1
+I8Y8fJYHRZQhGFUj`g>=?[2
+R0
+R1
+R11
+R12
+R13
+L0 368
+R2
+r1
+!s85 0
+31
+R14
+R15
+R16
+!s101 -O0
+!i113 1
+R3
+n@p@r@o@c_@s@m
+vREG_TB
+!i10b 1
+R0
+r1
+!s85 0
+31
+!s100 dH0eifKzAEe9:5ke229k_0
+IO9W?E4Rb4K_bS39RTWCzB1
+R1
+w1445638795
+8C:/Users/Greg/Desktop/prj_02_source/reg_tb.v
+FC:/Users/Greg/Desktop/prj_02_source/reg_tb.v
+R19
+R2
+!s108 1445639120.000000
+!s107 prj_definition.v|C:/Users/Greg/Desktop/prj_02_source/reg_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Greg/Desktop/prj_02_source/reg_tb.v|
+!s101 -O0
+!i113 1
+R3
+n@r@e@g_@t@b
+vREGISTER_FILE_32x32
+!s110 1445748362
+!i10b 1
+!s100 ^OQ5JRBmTijl8YRI_L1?Q3
+I<Yoz>a^zX5<L;6BGKk[gc3
+R0
+R1
+w1445748357
+8C:/Users/Greg/Desktop/prj_02_source/register_file.v
+FC:/Users/Greg/Desktop/prj_02_source/register_file.v
+L0 29
+R2
+r1
+!s85 0
+31
+!s108 1445748362.000000
+!s107 prj_definition.v|C:/Users/Greg/Desktop/prj_02_source/register_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Greg/Desktop/prj_02_source/register_file.v|
+!s101 -O0
+!i113 1
+R3
+n@r@e@g@i@s@t@e@r_@f@i@l@e_32x32

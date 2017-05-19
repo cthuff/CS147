@@ -1,0 +1,11 @@
+C:/Users/Craig/OneDrive/CS147/project1/prj_definition.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/project1/prj_definition.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/project1/alu.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/project1/alu.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}}

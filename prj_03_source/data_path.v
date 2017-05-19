@@ -1,0 +1,85 @@
+// Name: data_path.v
+// Module: DATA_PATH
+// Output:  DATA : Data to be written at address ADDR
+//          ADDR : Address of the memory location to be accessed
+//
+// Input:   DATA : Data read out in the read operation
+//          CLK  : Clock signal
+//          RST  : Reset signal
+//
+// Notes: - 32 bit processor implementing cs147sec05 instruction set
+//
+// Revision History:
+//
+// Version	Date		Who		email			note
+//------------------------------------------------------------------------------------------
+//  1.0     Sep 10, 2014	Kaushik Patra	kpatra@sjsu.edu		Initial creation
+//------------------------------------------------------------------------------------------
+//
+`include "prj_definition.v"
+module DATA_PATH(DATA_OUT, ADDR, ZERO, INSTRUCTION, DATA_IN, CTRL, CLK, RST);
+
+	// output list
+	output [`ADDRESS_INDEX_LIMIT:0] ADDR;
+	output ZERO;
+	output [`DATA_INDEX_LIMIT:0] DATA_OUT, INSTRUCTION;
+
+	// input list
+	input [`CTRL_WIDTH_INDEX_LIMIT:0]  CTRL;
+	input CLK, RST;
+	input [`DATA_INDEX_LIMIT:0] DATA_IN;
+
+	buf32 b(INSTRUCTION, DATA_IN);
+
+	//wires
+	wire dull;
+	wire [31:0] spw, rfw1, rfw2, irw, aw, wd_sel_1w, wd_sel_2w, wd_sel_3w,
+		ma_sel_2w, op1_sel_1w, pcw, addw, add1w, 
+		op2_sel_1w, op2_sel_2w, op2_sel_3w, op2_sel_4w;
+	wire [4:0] r1_sel_1w, wa_sel_1w, wa_sel_2w, wa_sel_3w;
+	wire [25:0] ma_sel_1w, pc_sel_1w, pc_sel_2w, pc_sel_3w; 
+	//wires
+	
+	rc_add_sub_32 add(addw, nowhere, add1w, {{16{irw[15]}}, irw[15:0]}, 1'b0);
+	rc_add_sub_32 add1(add1w, nowhere, 32'h0001, pcw, 1'b0);
+
+	defparam PC.PATTERN=32'h00001000;
+	REG32_PP PC(pcw, {6'b0, pc_sel_3w}, CTRL[0], CLK, RST);
+
+	mux26_2x1 pc_sel_1(pc_sel_1w, rfw1[25:0], add1w[25:0], CTRL[1]);
+	mux26_2x1 pc_sel_2(pc_sel_2w, pc_sel_1w, addw[25:0], CTRL[2]);
+	mux26_2x1 pc_sel_3(pc_sel_3w, irw[25:0], pc_sel_2w, CTRL[3]);
+
+
+	bit32_regester ir(irw, CLK, CTRL[4], DATA_IN, RST);
+      
+	REGISTER_FILE_32x32FAST rf(rfw1, rfw2, r1_sel_1w, irw[20:16], wd_sel_3w, wa_sel_3w, CTRL[6], CTRL[7], CLK, RST);
+
+	mux5_2x1 r1_sel_1(r1_sel_1w, irw[25:21], 5'b00000, CTRL[8]);
+
+	defparam SP.PATTERN=32'h03ffffff;
+	REG32_PP SP(spw, aw, CTRL[9], CLK, RST);
+
+	mux32_2x1 op1_sel_1(op1_sel_1w, rfw1, spw, CTRL[10]);
+
+	mux32_2x1 op2_sel_1(op2_sel_1w, 1, {27'b0, irw[10:6]}, CTRL[11]);
+	mux32_2x1 op2_sel_2(op2_sel_2w, {{{16'b0}}, irw[15:0]}, {{16{irw[15]}}, irw[15:0]}, CTRL[12]);
+	mux32_2x1 op2_sel_3(op2_sel_3w, op2_sel_2w, op2_sel_1w, CTRL[13]);
+	mux32_2x1 op2_sel_4(op2_sel_4w, op2_sel_3w, rfw2, CTRL[14]);
+
+	ALU alu(aw, ZERO, op1_sel_1w, op2_sel_4w, CTRL[20:15]); 
+
+	mux32_2x1 ma_sel_1(ma_sel_1w, aw, spw, CTRL[21]);
+	mux26_2x1 ma_sel_2(ADDR, ma_sel_1w, pcw[25:0], CTRL[22]);
+
+	mux32_2x1 md_sel_1(DATA_OUT, rfw2, rfw1, CTRL[23]);
+
+	mux32_2x1 wd_sel_1(wd_sel_1w, aw, DATA_IN, CTRL[26]);
+	mux32_2x1 wd_sel_2(wd_sel_2w, wd_sel_1w, {irw[15:0], {16{irw[15]}}}, CTRL[27]); 
+	mux32_2x1 wd_sel_3(wd_sel_3w, add1w, wd_sel_2w, CTRL[28]);
+
+	mux5_2x1 wa_sel_1(wa_sel_1w, irw[15:11], irw[20:16], CTRL[29]);
+	mux5_2x1 wa_sel_2(wa_sel_2w, 5'b00000, 5'b11111, CTRL[30]);
+	mux5_2x1 wa_sel_3(wa_sel_3w, wa_sel_2w, wa_sel_1w, CTRL[31]);
+
+endmodule	

@@ -1,0 +1,1556 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Craig/OneDrive/CS147/prj_03
+va_1DA_VINCI_TB
+Z0 !s110 1494996450
+!i10b 1
+!s100 ]>RMoZ`F8`T8dDS9o1>5S3
+IezmSonFX=Jm7BM9O>U@O91
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Craig/OneDrive/CS147/prj_03_Final
+w1494996415
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/dvinci_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/dvinci_tb.v
+Z3 L0 24
+Z4 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z5 !s108 1494996450.000000
+!s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/dvinci_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/dvinci_tb.v|
+!s101 -O0
+!i113 1
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+na_1@d@a_@v@i@n@c@i_@t@b
+va_32bitRegester_tb
+Z7 !s110 1494996449
+!i10b 1
+!s100 i<jRY``HmnfJO;=3X6UYM0
+IjEmEg0n16]C?0S]lI^;U91
+R1
+R2
+w1494996430
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/32bitreg_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/32bitreg_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+Z8 !s108 1494996449.000000
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/32bitreg_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/32bitreg_tb.v|
+!s101 -O0
+!i113 1
+R6
+na_32bit@regester_tb
+va_alu_tb
+Z9 !s110 1494961947
+!i10b 1
+!s100 jSm^UKgTUA@?mU0^VP1H80
+IV>1FjZeBG`fUj2<QW>P7V1
+R1
+R2
+Z10 w1428648740
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/a_alu_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/a_alu_tb.v
+L0 25
+R4
+r1
+!s85 0
+31
+Z11 !s108 1494961947.000000
+!s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/a_alu_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/a_alu_tb.v|
+!s101 -O0
+!i113 1
+R6
+va_barrel_shift_tb
+R7
+!i10b 1
+!s100 L[PjejDb>`AHJX`UJH?Ba1
+IE:;TaXh@<;MT@8A4`zzHc3
+R1
+R2
+w1494996434
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/barrel_shift_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/barrel_shift_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/barrel_shift_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/barrel_shift_tb.v|
+!s101 -O0
+!i113 1
+R6
+va_bitFlipFlop_tb
+R0
+!i10b 1
+!s100 >K8n36PBj0>SX`;=FNo<Y3
+I3aaojf=8Plmc^dESKo=6c3
+R1
+R2
+w1494996438
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/bitFlipFlop_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/bitFlipFlop_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/bitFlipFlop_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/bitFlipFlop_tb.v|
+!s101 -O0
+!i113 1
+R6
+na_bit@flip@flop_tb
+va_bitRegester_tb
+R0
+!i10b 1
+!s100 9UehQ8KEdBSWFb7emmk[I0
+IO4n?FSi<1>eZ_K`LP9b:G1
+R1
+R2
+Z12 w1494996446
+Z13 8C:/Users/Craig/OneDrive/CS147/prj_03_Final/bitRegester_tb.v
+Z14 FC:/Users/Craig/OneDrive/CS147/prj_03_Final/bitRegester_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+Z15 !s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/bitRegester_tb.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/bitRegester_tb.v|
+!s101 -O0
+!i113 1
+R6
+na_bit@regester_tb
+va_bitRegesterB_tb
+R0
+!i10b 1
+!s100 W^lANE6_8A2g]<1_gn0_?3
+INZT^4]Q3]0ZbnfL>8Q98E2
+R1
+R2
+R12
+R13
+R14
+L0 30
+R4
+r1
+!s85 0
+31
+R5
+R15
+R16
+!s101 -O0
+!i113 1
+R6
+na_bit@regester@b_tb
+va_codeTest_tb
+R9
+!i10b 1
+!s100 i;am4H3G8Go^c[J;C]C9D2
+IhAQGWP?PG>_aVI12IL9z23
+R1
+R2
+R10
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/a_code_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/a_code_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/a_code_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/a_code_tb.v|
+!s101 -O0
+!i113 1
+R6
+na_code@test_tb
+va_full_adder_tb
+R0
+!i10b 1
+!s100 [;4LIbGinS0:Jm<mH0[aN0
+IBQRoj8Lf<40f8PBg92PdW0
+R1
+R2
+w1494996410
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/full_adder_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/full_adder_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/full_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/full_adder_tb.v|
+!s101 -O0
+!i113 1
+R6
+va_left_shift_tb
+R0
+!i10b 1
+!s100 IXR?5P2kUY?nk78fRDHbL1
+Ib@@l8@_MGi]S1Hd=zQc]H2
+R1
+R2
+w1494996402
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/left_shift_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/left_shift_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/left_shift_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/left_shift_tb.v|
+!s101 -O0
+!i113 1
+R6
+va_lineDecoder5to32_tb
+R9
+!i10b 1
+!s100 3AL[L`:R=Z^4G?VH_oX@Q0
+I>@5PmAe]G6mPbhfUaBOOM3
+R1
+R2
+R10
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/a_lineDecoder5to32.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/a_lineDecoder5to32.v
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/a_lineDecoder5to32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/a_lineDecoder5to32.v|
+!s101 -O0
+!i113 1
+R6
+na_line@decoder5to32_tb
+va_logic_tb
+R0
+!i10b 1
+!s100 nlZ_LIU>U>>]X]jQ`ffKV3
+IT_XzlX4BOI7RXkfebidai2
+R1
+R2
+w1494996398
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/logic_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/logic_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/logic_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/logic_tb.v|
+!s101 -O0
+!i113 1
+R6
+va_mult_tb
+R0
+!i10b 1
+!s100 <beB:9X`=oT@SHgnf^?b_0
+Ii`JWfcaK1fnFCg:JE>4T81
+R1
+R2
+w1494996384
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/mult_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/mult_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/mult_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/mult_tb.v|
+!s101 -O0
+!i113 1
+R6
+va_mux_tb
+R0
+!i10b 1
+!s100 Sc9RLOS5gVKQZVaGkh=]Q2
+INgJGNkff^eRGCZ[@@WHmk1
+R1
+R2
+w1494996373
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/mux_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/mux_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/mux_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/mux_tb.v|
+!s101 -O0
+!i113 1
+R6
+va_or27x1_tb
+R0
+!i10b 1
+!s100 8G9EL;B[SX1MzLF=ngMHf2
+I]I]>GOLF:BEgXK^O]1HE:3
+R1
+R2
+w1494996360
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/or27x1_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/or27x1_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/or27x1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/or27x1_tb.v|
+!s101 -O0
+!i113 1
+R6
+va_rc_add_sub_32_tb
+R0
+!i10b 1
+!s100 >>>Lo;NLch0NBX6>M]S`Y2
+IHE1Fh4MWh@oRNi;bZ6^_O0
+R1
+R2
+w1494996355
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/rc_add_sub_32_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/rc_add_sub_32_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/rc_add_sub_32_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/rc_add_sub_32_tb.v|
+!s101 -O0
+!i113 1
+R6
+va_REG32_PC_TB
+R7
+!i10b 1
+!s100 ilRWNnbmUGea670MeX_7X2
+I=czCSbcQR`K>_8J0QFK_T3
+R1
+R2
+Z17 w1494996345
+Z18 8C:/Users/Craig/OneDrive/CS147/prj_03_Final/REG32_PP.v
+Z19 FC:/Users/Craig/OneDrive/CS147/prj_03_Final/REG32_PP.v
+L0 58
+R4
+r1
+!s85 0
+31
+R8
+Z20 !s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/REG32_PP.v|
+Z21 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/REG32_PP.v|
+!s101 -O0
+!i113 1
+R6
+na_@r@e@g32_@p@c_@t@b
+va_REG32_SP_TB
+R7
+!i10b 1
+!s100 S;J`W5G]S>eWZ2ilaDCPX0
+ITegd2;8kCJ;nmDnRnK41g1
+R1
+R2
+R17
+R18
+R19
+L0 27
+R4
+r1
+!s85 0
+31
+R8
+R20
+R21
+!s101 -O0
+!i113 1
+R6
+na_@r@e@g32_@s@p_@t@b
+va_RF_TB
+R0
+!i10b 1
+!s100 z`V`4HI2gZ?kFGhZP>TAA0
+Ih2;]lXHe@Ti?<MUAD9zRF3
+R1
+R2
+w1494996351
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/register_file_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/register_file_tb.v
+Z22 L0 22
+R4
+r1
+!s85 0
+31
+R5
+!s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/register_file_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/register_file_tb.v|
+!s101 -O0
+!i113 1
+R6
+na_@r@f_@t@b
+va_right_shift_tb
+R7
+!i10b 1
+!s100 oBenfOdlOlOP13;@7WGS41
+I3UQVXP;Z82:QWO]E??1WF0
+R1
+R2
+w1494996425
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/right_shift_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/right_shift_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/right_shift_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/right_shift_tb.v|
+!s101 -O0
+!i113 1
+R6
+vALU
+Z23 !s110 1494996236
+!i10b 1
+!s100 dZ0<GlPPKTRC=Z=hh`cB23
+I6HRhegn`_Rc`L^ZFEkEbQ2
+R1
+R2
+w1494909662
+Z24 8C:/Users/Craig/OneDrive/CS147/prj_03_Final/alu.v
+Z25 FC:/Users/Craig/OneDrive/CS147/prj_03_Final/alu.v
+Z26 L0 23
+R4
+r1
+!s85 0
+31
+Z27 !s108 1494996236.000000
+Z28 !s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/alu.v|
+Z29 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/alu.v|
+!s101 -O0
+!i113 1
+R6
+n@a@l@u
+vALUFAST
+!s110 1494904614
+!i10b 1
+!s100 hVAoF>HG4Yc]9AFMnGK713
+IdhEUEk<GgP<OX68@QOIA[3
+R1
+R2
+w1494904191
+R24
+R25
+L0 95
+R4
+r1
+!s85 0
+31
+!s108 1494904613.000000
+R28
+R29
+!s101 -O0
+!i113 1
+R6
+n@a@l@u@f@a@s@t
+vand32
+R23
+!i10b 1
+!s100 c`fMh=Gk>;FgW<?B^mQ7>3
+IEMhe=kh_MKzNchcaNMI7J2
+R1
+R2
+Z30 w1494948358
+Z31 8C:/Users/Craig/OneDrive/CS147/prj_03_Final/logic.v
+Z32 FC:/Users/Craig/OneDrive/CS147/prj_03_Final/logic.v
+L0 210
+R4
+r1
+!s85 0
+31
+R27
+Z33 !s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/logic.v|
+Z34 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/logic.v|
+!s101 -O0
+!i113 1
+R6
+vbarrel_shifter
+R23
+!i10b 1
+!s100 7jg[L3zQCaFM?`Mo8]@TM3
+I5G`P7CcSCHBigZWLdSY]V3
+R1
+R2
+Z35 w1494947099
+Z36 8C:/Users/Craig/OneDrive/CS147/prj_03_Final/barrel_shifter.v
+Z37 FC:/Users/Craig/OneDrive/CS147/prj_03_Final/barrel_shifter.v
+Z38 L0 16
+R4
+r1
+!s85 0
+31
+R27
+Z39 !s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/barrel_shifter.v|
+Z40 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/barrel_shifter.v|
+!s101 -O0
+!i113 1
+R6
+vbit32_regester
+R23
+!i10b 1
+!s100 QbI:d<lDoSKoo1j0iCb>a0
+I9n1hK@E3_ZXN8J;XANf:a0
+R1
+R2
+Z41 w1494911149
+Z42 8C:/Users/Craig/OneDrive/CS147/prj_03_Final/register_file.v
+Z43 FC:/Users/Craig/OneDrive/CS147/prj_03_Final/register_file.v
+L0 71
+R4
+r1
+!s85 0
+31
+R27
+Z44 !s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/register_file.v|
+Z45 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/register_file.v|
+!s101 -O0
+!i113 1
+R6
+vbit_regester
+R23
+!i10b 1
+!s100 hKXVig5PGd?F^S5mOT1@_3
+IMLUg3;2ZYFO4UXIaD8OUV0
+R1
+R2
+R30
+R31
+R32
+L0 106
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+vbit_regesterB
+R23
+!i10b 1
+!s100 _e@2Q:5`I`Z4<j]ob0iaS3
+I<<:QY[2h^_lOgfY<Zn@IR0
+R1
+R2
+R30
+R31
+R32
+L0 92
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+nbit_regester@b
+vbitFlipFlop
+R23
+!i10b 1
+!s100 7BCR6gCCLEEQS`BL7=]RI1
+I@dVTI7P9CXRU@12aKXCGV2
+R1
+R2
+R30
+R31
+R32
+L0 64
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+nbit@flip@flop
+vbuf32
+R23
+!i10b 1
+!s100 DF`KdGek:5UGlS4e`2;nT2
+I>2mR[Yh6G_lS:BnoU0WM92
+R1
+R2
+R30
+R31
+R32
+L0 45
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+vCLK_GENERATOR
+R23
+!i10b 1
+!s100 I`I=T4aaeE09lSRDFRN971
+I>zII@>ec1<YD:@EQ>^YBm0
+R1
+R2
+R10
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/clk_gen.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/clk_gen.v
+R38
+R4
+r1
+!s85 0
+31
+R27
+!s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/clk_gen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/clk_gen.v|
+!s101 -O0
+!i113 1
+R6
+n@c@l@k_@g@e@n@e@r@a@t@o@r
+vCONTROL_UNIT
+R23
+!i10b 1
+!s100 =8AA1d7PcX><BcWibhkdg2
+IINoVAz6?397eVJ`?XV8XV0
+R1
+R2
+Z46 w1494996133
+Z47 8C:/Users/Craig/OneDrive/CS147/prj_03_Final/control_unit.v
+Z48 FC:/Users/Craig/OneDrive/CS147/prj_03_Final/control_unit.v
+R22
+R4
+r1
+!s85 0
+31
+R27
+Z49 !s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/control_unit.v|
+Z50 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/control_unit.v|
+!s101 -O0
+!i113 1
+R6
+n@c@o@n@t@r@o@l_@u@n@i@t
+vDA_VINCI
+R23
+!i10b 1
+!s100 @l[a0lSNRFzIUSJ97E0V;3
+If4eOOPfdaJE407i:l<J?20
+R1
+R2
+R10
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/da_vinci.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/da_vinci.v
+R3
+R4
+r1
+!s85 0
+31
+R27
+!s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/da_vinci.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/da_vinci.v|
+!s101 -O0
+!i113 1
+R6
+n@d@a_@v@i@n@c@i
+vDATA_PATH
+R23
+!i10b 1
+!s100 ZHKjTe8Ya4z?jn0Pk?Ofg0
+I216c8H=a61[HCzkaI@0DR0
+R1
+R2
+w1494947812
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/data_path.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/data_path.v
+L0 20
+R4
+r1
+!s85 0
+31
+R27
+!s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/data_path.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/data_path.v|
+!s101 -O0
+!i113 1
+R6
+n@d@a@t@a_@p@a@t@h
+vfull_adder
+Z51 !s110 1494996237
+!i10b 1
+!s100 5dZh;^@YE:kMN>[_N65?n2
+IeQSnfm>74`oZ_M@=NTYFi3
+R1
+R2
+Z52 w1494948769
+Z53 8C:/Users/Craig/OneDrive/CS147/prj_03_Final/rc_add_sub_32.v
+Z54 FC:/Users/Craig/OneDrive/CS147/prj_03_Final/rc_add_sub_32.v
+L0 75
+R4
+r1
+!s85 0
+31
+Z55 !s108 1494996237.000000
+Z56 !s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/rc_add_sub_32.v|
+Z57 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/rc_add_sub_32.v|
+!s101 -O0
+!i113 1
+R6
+vhalf_adder
+R51
+!i10b 1
+!s100 H;QNGJ4iOozP9;ghaHDjP0
+IQb_4Ym2lN7@zI76[dK[Y02
+R1
+R2
+R52
+R53
+R54
+L0 87
+R4
+r1
+!s85 0
+31
+R55
+R56
+R57
+!s101 -O0
+!i113 1
+R6
+vhalf_adder_tb
+R0
+!i10b 1
+!s100 Rbc>T<ZaH^EaAm?9ZdFD`0
+I^N[XRXffSb891LIlGYkgM0
+R1
+R2
+w1494996407
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/half_adder_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/half_adder_tb.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/half_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/half_adder_tb.v|
+!s101 -O0
+!i113 1
+R6
+vinv32
+R23
+!i10b 1
+!s100 njmI^GYYiz5GG[Z4V0Hoi1
+IjWW5UTADmg;RaclKcmKZP1
+R1
+R2
+R30
+R31
+R32
+L0 223
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+vleft_shifter
+R23
+!i10b 1
+!s100 [ACR]PA:DKAB6NGmP0Rjh3
+IXBIFFM=T:EY7bJ@K0ePe43
+R1
+R2
+R35
+R36
+R37
+L0 37
+R4
+r1
+!s85 0
+31
+R27
+R39
+R40
+!s101 -O0
+!i113 1
+R6
+vlineDecoder2to4
+R23
+!i10b 1
+!s100 VVhDe[kDRH=5iZH?b[B4B1
+IAL<RgzU3o?_W0TTeIXj9l2
+R1
+R2
+R30
+R31
+R32
+L0 117
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+nline@decoder2to4
+vlineDecoder3to8
+R23
+!i10b 1
+!s100 Y_ElKGKK1>D_zCOF3PbVJ2
+IXgHaU9^8`zS?Zz`hO0JH`0
+R1
+R2
+R30
+R31
+R32
+L0 129
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+nline@decoder3to8
+vlineDecoder4to16
+R23
+!i10b 1
+!s100 LXFifBJoEfH6RT5M]CJgf3
+IYo26nQPi1_GiD47;=o0X02
+R1
+R2
+R30
+R31
+R32
+L0 145
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+nline@decoder4to16
+vlineDecoder5to32
+R23
+!i10b 1
+!s100 [AhZTUH=8[_gUd@TomLY90
+IRbgN0zfPl]J1;3<i;3B3;3
+R1
+R2
+R30
+R31
+R32
+L0 162
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+nline@decoder5to32
+vlogic
+R23
+!i10b 1
+!s100 9V8240gJDn9KcTb1`SUCV1
+IiVPH@a]Jdlk7cjLoTFLjK3
+R1
+R2
+R30
+R31
+R32
+L0 178
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+vMEM_64MB_TB
+R0
+!i10b 1
+!s100 Q0bd^kgMCaH`JYm[fkQkH3
+IDMU9i@B2<NOH3Uc[@h58T0
+R1
+R2
+w1494996389
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/mem_64MB_tb.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/mem_64MB_tb.v
+R26
+R4
+r1
+!s85 0
+31
+R5
+!s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/mem_64MB_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/mem_64MB_tb.v|
+!s101 -O0
+!i113 1
+R6
+n@m@e@m_64@m@b_@t@b
+vMEMORY_64MB
+R23
+!i10b 1
+!s100 oP8eV3o:95868_[[>m_k93
+Iz?7036G2gY:?kbl6Z@6g?2
+R1
+R2
+Z58 w1494910457
+Z59 8C:/Users/Craig/OneDrive/CS147/prj_03_Final/memory.v
+Z60 FC:/Users/Craig/OneDrive/CS147/prj_03_Final/memory.v
+L0 62
+R4
+r1
+!s85 0
+31
+R27
+Z61 !s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/memory.v|
+Z62 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/memory.v|
+!s101 -O0
+!i113 1
+R6
+n@m@e@m@o@r@y_64@m@b
+vMEMORY_WRAPPER
+R23
+!i10b 1
+!s100 [D<Cc`db7[7`6;ACNA^jU2
+Izdn8TZaX_lRJ[i>SLKfnh2
+R1
+R2
+R58
+R59
+R60
+L0 26
+R4
+r1
+!s85 0
+31
+R27
+R61
+R62
+!s101 -O0
+!i113 1
+R6
+n@m@e@m@o@r@y_@w@r@a@p@p@e@r
+vmult
+R23
+!i10b 1
+!s100 dTVk1GG5>0ACG]YFkZmOk3
+I@l_ED@hjlMeLli[7M9FMA3
+R1
+R2
+Z63 w1494948546
+Z64 8C:/Users/Craig/OneDrive/CS147/prj_03_Final/mult.v
+Z65 FC:/Users/Craig/OneDrive/CS147/prj_03_Final/mult.v
+L0 48
+R4
+r1
+!s85 0
+31
+R27
+Z66 !s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/mult.v|
+Z67 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/mult.v|
+!s101 -O0
+!i113 1
+R6
+vmult_32Bit_Unsigned
+R23
+!i10b 1
+!s100 T<gI?iPWRG49ZMo9Oi[>V3
+IcCI[l9nzh69X8E8XM_Am70
+R1
+R2
+R63
+R64
+R65
+R26
+R4
+r1
+!s85 0
+31
+R27
+R66
+R67
+!s101 -O0
+!i113 1
+R6
+nmult_32@bit_@unsigned
+vmux
+R51
+!i10b 1
+!s100 A3_bR6?=i<[]GaQB2b9`c3
+IDlGW7U2ZhiOK_GoBgHA2E3
+R1
+R2
+Z68 w1494948693
+Z69 8C:/Users/Craig/OneDrive/CS147/prj_03_Final/mux.v
+Z70 FC:/Users/Craig/OneDrive/CS147/prj_03_Final/mux.v
+Z71 L0 17
+R4
+r1
+!s85 0
+31
+R55
+Z72 !s107 C:/Users/Craig/OneDrive/CS147/prj_03_Final/mux.v|
+Z73 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/mux.v|
+!s101 -O0
+!i113 1
+R6
+vmux26_2x1
+R51
+!i10b 1
+!s100 m<::]Hn5k[O2X73NSke4<0
+I:e`;kkcC:J7^9JWhDaiYV1
+R1
+R2
+R68
+R69
+R70
+L0 29
+R4
+r1
+!s85 0
+31
+R55
+R72
+R73
+!s101 -O0
+!i113 1
+R6
+vmux32_16x1
+R51
+!i10b 1
+!s100 =IzoHgA^zfzL;?2;5zQXj2
+IYL32NhY_?iYjLiam]S<LT3
+R1
+R2
+R68
+R69
+R70
+L0 112
+R4
+r1
+!s85 0
+31
+R55
+R72
+R73
+!s101 -O0
+!i113 1
+R6
+vmux32_2x1
+R51
+!i10b 1
+!s100 <k>;a8HI[AZfJL8W5DI8=3
+Im0TXYnDI3XVVLfX?=>E2D1
+R1
+R2
+R68
+R69
+R70
+L0 55
+R4
+r1
+!s85 0
+31
+R55
+R72
+R73
+!s101 -O0
+!i113 1
+R6
+vmux32_32x1
+R51
+!i10b 1
+!s100 20<S@n8gm68l;@N:FGDb>3
+ID`I8=f8cklk;clI:ihiNW2
+R1
+R2
+R68
+R69
+R70
+L0 137
+R4
+r1
+!s85 0
+31
+R55
+R72
+R73
+!s101 -O0
+!i113 1
+R6
+vmux32_4x1
+R51
+!i10b 1
+!s100 Ge:;jQVe:;`]Ci@KX?aW?3
+IoVb3PW[Ra5ZD<]X[]K2[B2
+R1
+R2
+R68
+R69
+R70
+L0 83
+R4
+r1
+!s85 0
+31
+R55
+R72
+R73
+!s101 -O0
+!i113 1
+R6
+vmux32_8x1
+R51
+!i10b 1
+!s100 3WC@W6g0@2TZPTbzdN`9o2
+IGe<Wll^lm<JJ9f>JA>G8O3
+R1
+R2
+R68
+R69
+R70
+L0 97
+R4
+r1
+!s85 0
+31
+R55
+R72
+R73
+!s101 -O0
+!i113 1
+R6
+vmux5_2x1
+R51
+!i10b 1
+!s100 n52n[nZR<<H9GQoW;L@=62
+I^Sh7K9R5:dBVB:L3[eTT>1
+R1
+R2
+R68
+R69
+R70
+L0 42
+R4
+r1
+!s85 0
+31
+R55
+R72
+R73
+!s101 -O0
+!i113 1
+R6
+vmux64_2x1
+R51
+!i10b 1
+!s100 N59=5S6Oc`IlEVFzD0`?73
+I:E5?Bm;@cfOflE>K08`g41
+R1
+R2
+R68
+R69
+R70
+L0 68
+R4
+r1
+!s85 0
+31
+R55
+R72
+R73
+!s101 -O0
+!i113 1
+R6
+vnand3
+R23
+!i10b 1
+!s100 ZbU`4aCIW_z20?jH<]FP73
+I;D<nm]^V:Pedo?hlOX`if0
+R1
+R2
+R30
+R31
+R32
+L0 54
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+vnor32
+R23
+!i10b 1
+!s100 14Bkh0WeUX:dOWl;3W=og2
+IS7:9F;AJW7=gQ1EE^M8nA2
+R1
+R2
+R30
+R31
+R32
+L0 197
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+vor31x1
+R23
+!i10b 1
+!s100 khSd=]7eQJkcQ>NGJ2MdI3
+I37AaUUAY>bKbR4RXfXP=U1
+R1
+R2
+R30
+R31
+R32
+L0 236
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+vor32
+R23
+!i10b 1
+!s100 ZXH:UalZmmiLRWaGL[D0O3
+IoBXTNga=3QD042M:3AJmh1
+R1
+R2
+R30
+R31
+R32
+L0 273
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+vPROC_CS147_SEC05
+R51
+!i10b 1
+!s100 RnG4<7@a6S0:;e[D01z0e3
+IR2JCTf`0nczSOnc_jmAzc3
+R1
+R2
+w1494910499
+8C:/Users/Craig/OneDrive/CS147/prj_03_Final/processor.v
+FC:/Users/Craig/OneDrive/CS147/prj_03_Final/processor.v
+L0 21
+R4
+r1
+!s85 0
+31
+R55
+!s107 prj_definition.v|C:/Users/Craig/OneDrive/CS147/prj_03_Final/processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Craig/OneDrive/CS147/prj_03_Final/processor.v|
+!s101 -O0
+!i113 1
+R6
+n@p@r@o@c_@c@s147_@s@e@c05
+vPROC_SM
+R23
+!i10b 1
+!s100 ;HXEhNMY@O0iCQZ9`T0bW1
+IKoM<M1G[29R[T6AahmEDJ0
+R1
+R2
+R46
+R47
+R48
+L0 261
+R4
+r1
+!s85 0
+31
+R27
+R49
+R50
+!s101 -O0
+!i113 1
+R6
+n@p@r@o@c_@s@m
+vrc_add_sub_32
+R51
+!i10b 1
+!s100 j>YOA<[P;JQCVPWzT28zB2
+IjkjH=VlCbRHIEK7_HX?gF3
+R1
+R2
+R52
+R53
+R54
+R3
+R4
+r1
+!s85 0
+31
+R55
+R56
+R57
+!s101 -O0
+!i113 1
+R6
+vrc_add_sub_64
+R51
+!i10b 1
+!s100 ?[HI44XXSj]=D^A=8WOd43
+IZV8HgjmCQCN8MRzERX@XC3
+R1
+R2
+R52
+R53
+R54
+L0 51
+R4
+r1
+!s85 0
+31
+R55
+R56
+R57
+!s101 -O0
+!i113 1
+R6
+vREG32_PP
+R7
+!i10b 1
+!s100 D@Y60=23JINo8KeQYcXz50
+I;;fg=cob>=[R<XX`[_]ZB0
+R1
+R2
+R17
+R18
+R19
+L0 2
+R4
+r1
+!s85 0
+31
+R8
+R20
+R21
+!s101 -O0
+!i113 1
+R6
+n@r@e@g32_@p@p
+vREGISTER_FILE_32x32
+R23
+!i10b 1
+!s100 [KYLzzdznk1n9z26IlcGR3
+IoC0YR_f5?^L8PKC0GBBZ10
+R1
+R2
+R41
+R42
+R43
+L0 28
+R4
+r1
+!s85 0
+31
+R27
+R44
+R45
+!s101 -O0
+!i113 1
+R6
+n@r@e@g@i@s@t@e@r_@f@i@l@e_32x32
+vREGISTER_FILE_32x32FAST
+!s110 1494904612
+!i10b 1
+!s100 ;XYUhViZUN:fH>^J[5n[J0
+IXa?30nkM:kj:;?B5He6e51
+R1
+R2
+R10
+R42
+R43
+L0 116
+R4
+r1
+!s85 0
+31
+!s108 1494904612.000000
+R44
+R45
+!s101 -O0
+!i113 1
+R6
+n@r@e@g@i@s@t@e@r_@f@i@l@e_32x32@f@a@s@t
+vright_shifter
+R23
+!i10b 1
+!s100 ;_fOQBloGVM0SNG3<P0Nl2
+IA0cjjoWcWYTlnJ5EcHC^F0
+R1
+R2
+R35
+R36
+R37
+L0 76
+R4
+r1
+!s85 0
+31
+R27
+R39
+R40
+!s101 -O0
+!i113 1
+R6
+vSYSTEM_IMPLEMENTATION
+R23
+!i10b 1
+!s100 =PDe9Mlm[_J4IUH=k1U@d0
+ISTLALGCTB`]S1g^9P6l_k3
+R1
+R2
+R58
+R59
+R60
+L0 93
+R4
+r1
+!s85 0
+31
+R27
+R61
+R62
+!s101 -O0
+!i113 1
+R6
+n@s@y@s@t@e@m_@i@m@p@l@e@m@e@n@t@a@t@i@o@n
+vtwosComplement
+R23
+!i10b 1
+!s100 6`FEnL0ihjKYbSlmYQD@B0
+INYZ=lejNUa=2d6GPcGW2M1
+R1
+R2
+R30
+R31
+R32
+L0 31
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+ntwos@complement
+vtwosComplement64
+R23
+!i10b 1
+!s100 PPeUT2zjXi@dm]4I4^ObN3
+INH9mdXDRgOg=fbNNVUIV21
+R1
+R2
+R30
+R31
+R32
+R71
+R4
+r1
+!s85 0
+31
+R27
+R33
+R34
+!s101 -O0
+!i113 1
+R6
+ntwos@complement64

@@ -1,0 +1,266 @@
+C:/Users/Craig/OneDrive/CS147/prj_03_Final/bitFlipFlop_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/bitFlipFlop_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_bitFlipFlop_tb
+
+Top level modules:
+	a_bitFlipFlop_tb
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/barrel_shift_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/barrel_shift_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_barrel_shift_tb
+
+Top level modules:
+	a_barrel_shift_tb
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/mux.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/mux.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux
+-- Compiling module mux26_2x1
+-- Compiling module mux5_2x1
+-- Compiling module mux32_2x1
+-- Compiling module mux64_2x1
+-- Compiling module mux32_4x1
+-- Compiling module mux32_8x1
+-- Compiling module mux32_16x1
+-- Compiling module mux32_32x1
+
+Top level modules:
+	mux26_2x1
+	mux5_2x1
+	mux64_2x1
+	mux32_32x1
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/alu.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/alu.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/logic_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/logic_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_logic_tb
+
+Top level modules:
+	a_logic_tb
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/clk_gen.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/clk_gen.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CLK_GENERATOR
+
+Top level modules:
+	CLK_GENERATOR
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/barrel_shifter.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/barrel_shifter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module barrel_shifter
+-- Compiling module left_shifter
+-- Compiling module right_shifter
+
+Top level modules:
+	barrel_shifter
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/register_file.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/register_file.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module REGISTER_FILE_32x32
+-- Compiling module bit32_regester
+
+Top level modules:
+	REGISTER_FILE_32x32
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/left_shift_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/left_shift_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_left_shift_tb
+
+Top level modules:
+	a_left_shift_tb
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/bitRegester_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/bitRegester_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_bitRegester_tb
+-- Compiling module a_bitRegesterB_tb
+
+Top level modules:
+	a_bitRegester_tb
+	a_bitRegesterB_tb
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/da_vinci.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/da_vinci.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DA_VINCI
+
+Top level modules:
+	DA_VINCI
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/data_path.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/data_path.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DATA_PATH
+
+Top level modules:
+	DATA_PATH
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/mux_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/mux_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_mux_tb
+
+Top level modules:
+	a_mux_tb
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/full_adder_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/full_adder_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_full_adder_tb
+
+Top level modules:
+	a_full_adder_tb
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/32bitreg_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/32bitreg_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_32bitRegester_tb
+
+Top level modules:
+	a_32bitRegester_tb
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/or27x1_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/or27x1_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_or27x1_tb
+
+Top level modules:
+	a_or27x1_tb
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/right_shift_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/right_shift_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_right_shift_tb
+
+Top level modules:
+	a_right_shift_tb
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/control_unit.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/control_unit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CONTROL_UNIT
+-- Compiling module PROC_SM
+
+Top level modules:
+	CONTROL_UNIT
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/processor.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/processor.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PROC_CS147_SEC05
+
+Top level modules:
+	PROC_CS147_SEC05
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/register_file_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/register_file_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_RF_TB
+
+Top level modules:
+	a_RF_TB
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/memory.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MEMORY_WRAPPER
+-- Compiling module MEMORY_64MB
+-- Compiling module SYSTEM_IMPLEMENTATION
+
+Top level modules:
+	SYSTEM_IMPLEMENTATION
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/dvinci_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/dvinci_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_1DA_VINCI_TB
+
+Top level modules:
+	a_1DA_VINCI_TB
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/REG32_PP.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/REG32_PP.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module REG32_PP
+-- Compiling module a_REG32_SP_TB
+-- Compiling module a_REG32_PC_TB
+
+Top level modules:
+	a_REG32_SP_TB
+	a_REG32_PC_TB
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/mult.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/mult.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mult_32Bit_Unsigned
+-- Compiling module mult
+
+Top level modules:
+	mult
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/rc_add_sub_32.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/rc_add_sub_32.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module rc_add_sub_32
+-- Compiling module rc_add_sub_64
+-- Compiling module full_adder
+-- Compiling module half_adder
+
+Top level modules:
+	rc_add_sub_32
+	rc_add_sub_64
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/mem_64MB_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/mem_64MB_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MEM_64MB_TB
+
+Top level modules:
+	MEM_64MB_TB
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/prj_definition.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/prj_definition.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/logic.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/logic.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module twosComplement64
+-- Compiling module twosComplement
+-- Compiling module buf32
+-- Compiling module nand3
+-- Compiling module bitFlipFlop
+-- Compiling module bit_regesterB
+-- Compiling module bit_regester
+-- Compiling module lineDecoder2to4
+-- Compiling module lineDecoder3to8
+-- Compiling module lineDecoder4to16
+-- Compiling module lineDecoder5to32
+-- Compiling module logic
+-- Compiling module nor32
+-- Compiling module and32
+-- Compiling module inv32
+-- Compiling module or31x1
+-- Compiling module or32
+
+Top level modules:
+	twosComplement64
+	twosComplement
+	buf32
+	bit_regesterB
+	bit_regester
+	lineDecoder5to32
+	logic
+	and32
+	or31x1
+	or32
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/rc_add_sub_32_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/rc_add_sub_32_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_rc_add_sub_32_tb
+
+Top level modules:
+	a_rc_add_sub_32_tb
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/mult_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/mult_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module a_mult_tb
+
+Top level modules:
+	a_mult_tb
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_03_Final/half_adder_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_03_Final/half_adder_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module half_adder_tb
+
+Top level modules:
+	half_adder_tb
+
+} {} {}}

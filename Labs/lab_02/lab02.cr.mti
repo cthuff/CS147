@@ -1,0 +1,36 @@
+C:/Users/Craig/OneDrive/CS147/lab_02/rcounter_tb.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/lab_02/rcounter_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module RIPPLE_COUNTER_TB
+
+Top level modules:
+	RIPPLE_COUNTER_TB
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/lab_02/tff.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/lab_02/tff.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module TFF
+
+Top level modules:
+	TFF
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/lab_02/dff.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/lab_02/dff.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DFF
+
+Top level modules:
+	DFF
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/lab_02/inv.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/lab_02/inv.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module INVERTER
+
+Top level modules:
+	INVERTER
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/lab_02/rcounter.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/lab_02/rcounter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module RIPPLE_COUNTER
+
+Top level modules:
+	RIPPLE_COUNTER
+
+} {} {}}

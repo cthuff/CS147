@@ -1,0 +1,82 @@
+C:/Users/Craig/OneDrive/CS147/prj_02/da_vinci_tb.v {2 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_02/da_vinci_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DA_VINCI_TB
+** Warning: C:/Users/Craig/OneDrive/CS147/prj_02/da_vinci_tb.v(61): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	DA_VINCI_TB
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_02/alu.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_02/alu.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_02/clk_gen.v {2 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_02/clk_gen.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CLK_GENERATOR
+** Warning: C:/Users/Craig/OneDrive/CS147/prj_02/clk_gen.v(32): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	CLK_GENERATOR
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_02/processor.v {2 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_02/processor.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PROC_CS147_SEC05
+** Warning: C:/Users/Craig/OneDrive/CS147/prj_02/processor.v(53): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	PROC_CS147_SEC05
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_02/prj_definition.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_02/prj_definition.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_02/mem_64MB_tb.v {2 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_02/mem_64MB_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MEM_64MB_TB
+** Warning: C:/Users/Craig/OneDrive/CS147/prj_02/mem_64MB_tb.v(110): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	MEM_64MB_TB
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_02/register_file.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_02/register_file.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module REGISTER_FILE_32x32
+
+Top level modules:
+	REGISTER_FILE_32x32
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_02/control_unit.v {2 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_02/control_unit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module CONTROL_UNIT
+** Warning: C:/Users/Craig/OneDrive/CS147/prj_02/control_unit.v(348): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+-- Compiling module PROC_SM
+** Warning: C:/Users/Craig/OneDrive/CS147/prj_02/control_unit.v(413): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	CONTROL_UNIT
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_02/memory.v {1 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_02/memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MEMORY_64MB
+
+Top level modules:
+	MEMORY_64MB
+
+} {} {}} C:/Users/Craig/OneDrive/CS147/prj_02/da_vinci.v {2 {vlog -work work -stats=none C:/Users/Craig/OneDrive/CS147/prj_02/da_vinci.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DA_VINCI
+** Warning: C:/Users/Craig/OneDrive/CS147/prj_02/da_vinci.v(43): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+
+Top level modules:
+	DA_VINCI
+
+} {} {}}

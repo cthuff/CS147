@@ -1,0 +1,19 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/MEM_64MB_TB/mem_inst/sram_32x64m
+// format=hex addressradix=h dataradix=h version=1.0 wordsperline=1 noaddress
+00414020
+00414021
+00414022
+00414023
+00414024
+00414025
+00414026
+00414027
+00414028
+00414029
+0041402a
+0041402b
+0041402c
+0041402d
+0041402e
+0041402f

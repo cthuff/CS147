@@ -1,0 +1,19 @@
+`timescale 1ns/1ps
+module a_mux_tb;
+	reg operand1, operand2, control;
+
+	wire result;
+
+	mux m1(.result(result), .operand1(operand1),
+		.operand2(operand2), .control(control));
+	initial begin
+		#5 control=0; operand1=0; operand2=0;
+		#5 control=0; operand1=1; operand2=0;
+		#5 control=0; operand1=0; operand2=1;
+		#5 control=0; operand1=1; operand2=1;
+		#5 control=1; operand1=0; operand2=0;
+		#5 control=1; operand1=1; operand2=0;
+		#5 control=1; operand1=0; operand2=1;
+		#5 control=1; operand1=1; operand2=1;
+	end
+endmodule
